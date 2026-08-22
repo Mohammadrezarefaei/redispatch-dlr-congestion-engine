@@ -9,6 +9,12 @@
 
 ---
 
+## 📊 Dashboard & Simulation Preview
+
+![Redispatch 2.0 & DLR Dashboard](redispatch_dlr_simulation_results.png)
+
+---
+
 ## 📌 Executive Summary
 
 Under Germany's **Redispatch 2.0** regulatory mechanism, heavy wind feed-in from northern coastal hubs regularly overloads static seasonal transmission limits ($I_{\text{max}}$). This forces transmission system operators (TSOs) to mandate expensive **downward renewable curtailment** in the north and compensatory **upward conventional ramping** in the south.
@@ -58,6 +64,7 @@ redispatch-dlr-congestion-engine/
 │   └── test_redispatch.py       # Unit & integration test suites
 ├── app.py                       # Interactive Streamlit dashboard
 ├── redispatch_dlr_simulation.py # Standalone physics simulation script
+├── redispatch_dlr_simulation_results.png # Visual results & benchmark plot
 ├── requirements.txt
 ├── README.md
 └── .gitignore
